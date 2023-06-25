@@ -3,9 +3,6 @@ import matplotlib.pyplot as plt
 
 data = pd.read_csv("data_C02_emission.csv")
 
-#data1 = pd.DataFrame(data= np.c_[iris['data'], iris['target']],
-#                     columns= iris['feature_names'] + ['target'])
-
 #a)
 print(f"broj mjerenja je {len(data)}")
 print(f"Tipovi podataka {data.info()}")
